@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* clone the repo
 
-Things you may want to cover:
+* bundle and start server locally (port 3000)
 
-* Ruby version
+* on postman (or similar):
+  `http://localhost:3000/pages/index?receipient_name=Foo`
+  This should create a Receipient with name *Foo* on the Api
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Issue: `401 Unauthorized: Please provide a good token`
